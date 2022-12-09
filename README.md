@@ -14,3 +14,10 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+
+
+## Vue.js 挑战集合代码实现
++ Vue.js 挑战集合是个很优秀的项目，比较适合Vue3入门
++ Vue.js 挑战集合网址：https://cn-vuejs-challenges.netlify.app
++ 涉及到的技术：Vue3 + TypeScript + vite
++ 实现方法三千，只取其中一种实现，不对之处请指正

@@ -41,7 +41,7 @@ function useMouse() {
 const { x, y } = useMouse();
 
 const codelist = ref(`
-  // 使页面正确显示“Hello World”
+  // 实现页面实时显示鼠标坐标
   
   <template>
     <div>

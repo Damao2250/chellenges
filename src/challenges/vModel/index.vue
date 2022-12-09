@@ -46,7 +46,7 @@ const VOhModel: Directive<HTMLInputElement, string>  = {
 const value = ref("Hello Vue.js")
 
 const codelist = ref(`
-  // 使页面正确显示“Hello World”
+  // 实现一个简单的v-model指令
   
   <template>
     <div>

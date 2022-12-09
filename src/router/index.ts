@@ -116,7 +116,7 @@ const routes = [
     component: () => import('@/challenges/VFocus/index.vue'),
   },
   {
-    // 节流点击指令
+    // 防抖点击指令
     path: '/VDebounceClick',
     name: 'VDebounceClick',
     component: () => import('@/challenges/VDebounceClick/index.vue'),

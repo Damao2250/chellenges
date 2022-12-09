@@ -18,7 +18,12 @@
 
 <script lang="ts" setup>
 import { ref } from "vue";
-
+/**
+ * 实现以下自定义指令
+ * 确保在一定时间内当快速点击按钮多次时只触发一次点击事件
+ * 你需要支持防抖延迟时间选项, 用法如 'v-debounce-click:ms'
+ *
+*/
 // 第一次点击不是立即生效的
 const VDebounceClick = {
   mounted(el, binding) {
@@ -62,7 +67,7 @@ function onClick() {
 }
 
 const codelist = ref(`
-  // 使页面正确显示“Hello World”
+  // 实现一个防抖点击指令
   
   <template>
     <div>
@@ -76,7 +81,12 @@ const codelist = ref(`
   </template>
   <script lang="ts" setup>
     import { ref } from "vue";
-
+    /**
+     * 实现以下自定义指令
+     * 确保在一定时间内当快速点击按钮多次时只触发一次点击事件
+     * 你需要支持防抖延迟时间选项, 用法如 'v-debounce-click:ms'
+     *
+    */
     // 第一次点击不是立即生效的
     const VDebounceClick = {
       mounted(el, binding) {
